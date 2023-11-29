@@ -8,7 +8,7 @@ Automatizar el suministro de agua al plato de una mascota considerando sus condi
 
 # Periféricos
 
-VÁLVULA SOLENOIDE O ELECTROVÁLVULA DE 12V -------------------------------------------------------//
+VÁLVULA SOLENOIDE O ELECTROVÁLVULA DE 12V -------------------------------------------------------  
 Permite el flujo, del agua hacia el plato, gracias a su alimentación.
 
 RELÉ DE 5V --------------------------------------------------------------------------------------
