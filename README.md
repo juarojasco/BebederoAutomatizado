@@ -11,13 +11,13 @@ Automatizar el suministro de agua al plato de una mascota considerando sus condi
 VÁLVULA SOLENOIDE O ELECTROVÁLVULA DE 12V -------------------------------------------------------  
 Permite el flujo, del agua hacia el plato, gracias a su alimentación.
 
-RELÉ DE 5V --------------------------------------------------------------------------------------
+RELÉ DE 5V --------------------------------------------------------------------------------------  
 Dado que la válvula es activada a 12V, se requiere un instrumento externo que pueda ser activado por una FPGA y permita el pasó de la alimentación a la valvula, se compone de una bobina que al ser energizada mueve sus contactos internos para activar un circuito externo, en este caso el de la válvula.
 
-SENSOR DE PROXIMIDAD POR ULTRASONIDO HCSR04 -----------------------------------------------------
+SENSOR DE PROXIMIDAD POR ULTRASONIDO HCSR04 -----------------------------------------------------  
 Este sensor es el cual se encunetra programado en la FPGA, este se encarga de detectar si el perrito esta cerca y asi activar el relé para activar la valvula y permitir el flujo de agua.
 
-CELDA DE CARGA ---------------------------------------------------------------------------------
+CELDA DE CARGA ---------------------------------------------------------------------------------  
 Esta se encuentra programada en arduino, dado que resultó que es demasiado complicado implentar un codigo funcional capaz de leer los datos arrojados por la FPGA. Se encarga de evitar que el plato se deborde gracias a la medición del peso del agua.
 
 A/D HX711 --------------------------------------------------------------------------------------
